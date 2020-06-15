@@ -48,6 +48,12 @@ body {
     text-decoration: none;
 }
 
+.btn2 {
+    border: 1px greenyellow solid;
+    background-color: red;
+    text-decoration: none;
+}
+
 
 .spanbtn {
     background-color: red;
