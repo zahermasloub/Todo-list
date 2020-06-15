@@ -5,11 +5,12 @@ const btn = document.querySelector(".btn3");
 
 const ul = document.getElementById("rootmap");
 
-const inputs = document.querySelector(".inbt");
+// const inputs = document.querySelector(".inbt");
 
 
 
-// console.log(btn, ul);
+
+
 
 window.onload = function () {
     inputs.focus();
@@ -50,3 +51,26 @@ document.addEventListener('click', function (e) {
 
     }
 });
+
+
+btn.addEventListener("click", goo);
+
+
+
+function goo() {
+    const inputs = document.querySelector(".inbt");
+
+    let = tasks;
+
+    if (localStorage.setItem(tasks) === null) {
+        tasks = [];
+    } else {
+        tasks = JSON.parse(localStorage.getItem(tasks));
+    }
+
+    tasks.push(inputs.value);
+
+    localStorage.setItem("tasks", JSON.stringify(tasks));
+    alert("ccccc");
+
+}
