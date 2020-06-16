@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1280px) {
+
+    .contaner {
+        margin-top: 3vh;
+
+    }
+
+    .item {
+        width: 40rem;
+        background-color: #f5ce79;
+    }
+
+    .spanbtn {
+        background-color: #f5ce79;
+        border: 2px solid #f5ce79;
+    }
+
+}
