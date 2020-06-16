@@ -10,9 +10,31 @@
         background-color: #f5ce79;
     }
 
+
     .spanbtn {
         background-color: #f5ce79;
         border: 2px solid #f5ce79;
     }
+
+    .btn3 {
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .btn2 {
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+        margin-top: 15px;
+
+    }
+
+
+    .inbt {
+        width: 100vh;
+    }
+
 
 }
