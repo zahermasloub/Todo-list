@@ -23,11 +23,11 @@ btn.onclick = function () {
     const links = document.createElement("a");
     links.className = "spanbtn";
 
-    const trr = document.createTextNode("X");
+    // const trr = document.;
 
     const texttext = document.createTextNode(inputs.value);
 
-    links.appendChild(trr);
+    links.innerHTML = '<i class="fas fa-trash-alt"></i>';
     li.appendChild(texttext);
     li.appendChild(links);
     ul.appendChild(li);
@@ -36,10 +36,11 @@ btn.onclick = function () {
 };
 
 document.addEventListener("click", function (e) {
-  if (e.target.className === "spanbtn") {
+  if (e.target.className === "fas fa-trash-alt") {
     // console.log('ok ok ok');
 
-    e.target.parentElement.remove();
+    e.target.parentElement.parentElement.remove();
+    console.log(e.target);
   }
 });
 
