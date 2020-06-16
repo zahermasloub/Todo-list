@@ -32,6 +32,7 @@ btn.onclick = function () {
     li.appendChild(links);
     ul.appendChild(li);
     inputs.value = "";
+    inputs.focus();
   }
 };
 

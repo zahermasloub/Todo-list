@@ -21,6 +21,12 @@
         height: 30px;
         font-size: 15px;
         margin-top: 15px;
+        border: none;
+        background-color: #e0dede;
+    }
+
+    .btn3 i {
+        font-size: 50px;
     }
 
     .btn2 {
@@ -28,7 +34,13 @@
         height: 30px;
         font-size: 15px;
         margin-top: 15px;
+        border: none;
+        background-color: #e0dede;
 
+    }
+
+    .btn2 i {
+        font-size: 50px;
     }
 
 
