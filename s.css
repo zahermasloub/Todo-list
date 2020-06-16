@@ -43,6 +43,11 @@ body {
     /* margin-left: 55em;
     margin-top: 3rem; */
     list-style: none;
+    animation: zaher 2s ;
+}
+@keyframes zaher{
+from{display: none;}
+to{display: block;}
 }
 
 .link-co{
