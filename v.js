@@ -6,6 +6,8 @@ const ul = document.getElementById("rootmap");
 
 const inputs = document.querySelector(".inbt");
 
+const inputs2 = document.querySelector(".btn2");
+
 window.onload = function () {
   inputs.focus();
 };
@@ -41,22 +43,8 @@ document.addEventListener("click", function (e) {
   }
 });
 
-const inputs2 = document.querySelector(".btn2");
-inputs2.addEventListener("click", goo);
+//remove all Tasks
 
-function goo() {
-  const inputs = document.querySelector(".inbt");
-
-  let = tasks;
-
-  if (localStorage.setItem(tasks) === null) {
-    tasks = [];
-  } else {
-    tasks = JSON.parse(localStorage.getItem(tasks));
-  }
-
-  tasks.push(inputs.value);
-
-  localStorage.setItem("tasks", JSON.stringify(tasks));
-  alert("ccccc");
-}
+inputs2.onclick = function (e) {
+  ul.innerHTML = "";
+};
