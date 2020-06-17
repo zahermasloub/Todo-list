@@ -91,5 +91,16 @@ const filterdiv = document.querySelector(".filterfilter-conten");
 filterinput.addEventListener("keyup", filtterTasks);
 
 function filtterTasks(e) {
-  const text = e.target.value;
+  const text = e.target.value.toLowerCase();
+  document.querySelectorAll(".item").forEach(function (task) {
+    const itemm = task.firstChild.textContent;
+    if (itemm.toLowerCase().indexOf(text) != -1) {
+      task.style.display = 'block';
+
+    } else {
+      task.style.display = 'none';
+    }
+  });
+
+  console.log(text);
 }
