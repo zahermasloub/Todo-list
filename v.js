@@ -82,3 +82,5 @@ inputs2.onclick = function (e) {
 //     ul.innerHTML = "";
 //   }
 // };
+
+//filtter tasks

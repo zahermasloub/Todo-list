@@ -48,5 +48,16 @@
         width: 100vh;
     }
 
+    .filter {
+        width: 50vh;
+        height: 50px;
+        margin-top: 50px;
+        border: 2px greenyellow solid;
+        border-radius: 20px;
+        font-size: 30px;
+        outline: none;
+
+    }
+
 
 }
