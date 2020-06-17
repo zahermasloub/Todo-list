@@ -59,5 +59,11 @@
 
     }
 
+    .filter-conten {
+        width: 700px;
+        text-align: center;
+        margin-left: 250px;
+    }
+
 
 }
