@@ -45,8 +45,40 @@ document.addEventListener("click", function (e) {
   }
 });
 
-//remove all Tasks
-
+// //remove all Tasks ex 1
 inputs2.onclick = function (e) {
-  ul.innerHTML = "";
+  if (
+    Swal.fire({
+      title: "Are you sure to Delete All Tasks?",
+      text: "You won't be able to revert this!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, delete it!",
+    }).then((result) => {
+      if (result.value) {
+        Swal.fire("Deleted!", "Your file has been deleted.", "success");
+      }
+    })
+  ) {
+    ul.innerHTML = "";
+  }
 };
+
+// //remove all Tasks ex 2
+// inputs2.onclick = function (e) {
+//   if (
+//     Swal.fire({
+//       title: "Are you sure to Delete All Tasks?",
+//       icon: "question",
+//       iconHtml: "؟",
+//       confirmButtonText: "Yes",
+//       cancelButtonText: "No",
+//       showCancelButton: true,
+//       showCloseButton: true,
+//     })
+//   ) {
+//     ul.innerHTML = "";
+//   }
+// };
