@@ -110,6 +110,7 @@ body {
 .spanbtn {
     background-color: red;
     width: 2rem;
+    cursor: pointer;
     text-align: center;
     border: 2px solid red;
     float: right;
